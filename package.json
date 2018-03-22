@@ -1,6 +1,6 @@
 {
   "name": "hello-lb4",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "hello-lb4",
   "keywords": [
     "loopback-application",
@@ -39,15 +39,16 @@
     "src"
   ],
   "dependencies": {
-    "@loopback/context": "^0.2.3",
     "@loopback/boot": "^0.3.3",
+    "@loopback/build": "^0.3.2",
+    "@loopback/context": "^0.2.3",
     "@loopback/core": "^0.2.3",
+    "@loopback/openapi-v3": "^0.3.2",
     "@loopback/rest": "^0.3.3",
-    "@loopback/openapi-v3": "^0.3.2"
+    "@loopback/testlab": "^0.3.2",
+    "typescript": "^2.7.2"
   },
   "devDependencies": {
-    "@loopback/build": "^0.3.1",
-    "@types/node": "^8.9.5",
-    "@loopback/testlab": "^0.3.2"
+    "@types/node": "^8.9.5"
   }
 }
